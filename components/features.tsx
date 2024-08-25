@@ -1,17 +1,17 @@
 export default function Features() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 bg-yellow-600">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 bg-grey-600">
         <div className="py-12 md:py-20">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Welcome To ThioSpark X</h2>
-            <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            {/*<p className="text-xl text-gray-400">Our Technology</p>*/}
           </div>
 
           {/* Items */}
-          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
+          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-1 lg:grid-cols-2 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
 
             {/* 1st item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
@@ -20,8 +20,13 @@ export default function Features() {
                 <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Our Technology</h4>
+              <p className="text-lg text-gray-400 text-center">"Solid-state lithium-sulfur batteries hold the promise of revolutionizing energy storage, offering significantly higher energy density than today's lithium-ion technology. However, the challenges of cycle life and performance have hindered their widespread adoption. 
+
+Thiospark is at the forefront of solid-state lithium-sulfur battery technology. Unlike conventional lithium-sulfur batteries, our solid-state approach offers inherent advantages in safety and energy density. By incorporating our proprietory sulfur carbon composite cathode, our innovative solid state electrolyte and Li-based anode, we have significantly improved the battery's cycle life, coulombic efficiency, safety and overall performance.
+
+Would you like to explore other options or focus on specific aspects of Thiospark's technology? (hyperlink to technology with more details of solid state lithium sulfur batteries, Our proposition, our data, market comparison, our target)"
+</p>
             </div>
 
             {/* 2nd item */}
@@ -31,12 +36,45 @@ export default function Features() {
                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Advantages of Solid state Lithium-Sulfur batteries</h4>
+              {/*<p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>*/}
+              <ul className="text-lg text-gray-400 -mb-2">
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span className="h4 mb-2">High Energy Density</span>
+                     
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span className="h4 mb-2">Light Weight</span>
+                    </li>
+                    <li className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span className="h4 mb-2">Low Cost</span>
+                    </li>
+                    <li className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span className="h4 mb-2">Enhanced Safety</span>
+                    </li>
+                    <li className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span className="h4 mb-2">Reduced Environmental Impact</span>
+                    </li>
+                  </ul>
             </div>
 
             {/* 3rd item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
+            {/*<div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
                 <g transform="translate(21 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
@@ -47,10 +85,10 @@ export default function Features() {
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
               <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-            </div>
+            </div>*/}
 
             {/* 4th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
+            {/* <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
                 <g transform="translate(22 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
@@ -60,10 +98,10 @@ export default function Features() {
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
               <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-            </div>
+            </div>*/}
 
             {/* 5th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">
+           {/* <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
                 <g strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
@@ -73,10 +111,10 @@ export default function Features() {
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
               <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-            </div>
+            </div>*/}
 
             {/* 6th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-blocks]">
+           {/* <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
                 <g transform="translate(21 22)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
@@ -87,7 +125,7 @@ export default function Features() {
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
               <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-            </div>
+            </div>*/}
 
           </div>
 

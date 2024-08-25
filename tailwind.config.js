@@ -37,8 +37,9 @@ module.exports = {
         '1/1': '100%',
       },
       fontFamily: {
-        inter: ['var(--font-inter)', 'sans-serif'],
-        'architects-daughter': ['var(--font-architects-daughter)', 'sans-serif']
+        inter: ['var(--font-inter)', 'Cursive'],
+        'architects-daughter': ['var(--font-architects-daughter)', 'Cursive']
+        
       },
       fontSize: {
         xs: '0.75rem',
